@@ -1,0 +1,21 @@
+
+body {
+    background-image: url(rose1.4.gif), url(background1.4.jpeg); /* background image sets the background */
+    background-position: right top, left top;  /*The background-position property sets the starting position of a background image.*/
+    background-repeat: no-repeat, repeat;  /*The background-repeat property sets if/how a background image will be repeated.*/
+    padding: 5px;  /*An element's padding is the space between its content and its border.*/
+  }
+
+  #borderimg { 
+    border: 10px solid transparent;  /* 1 mark */
+    padding: 15px;  /* Inside spacing */
+    border-image: url(border1.4.png) 30 round;  /* The border-image property allows you to specify an image to be used as the border around an element. */
+    text-align: center;  /* The text-align property specifies the horizontal alignment of text in an element. */
+    text-shadow: 2px 2px 4px #000000; /* The text-shadow property adds shadow to text. */
+    
+  }
+
+  #box-shadow{
+    box-shadow: 8px 8px 8px rgb(224, 155, 76); /* The box-shadow property attaches one or more shadows to an element. */
+    border-radius: 10px;/* the border-radius property defines the radius of the element's corners.*/
+  }
